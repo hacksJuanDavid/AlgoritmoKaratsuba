@@ -225,15 +225,15 @@ export default function AlgoritmoKaratsuba() {
           <p className="text-center font-bold">c = 12</p>
           <p className="text-center font-bold">d = 34</p>
           <p className="text-center font-bold">z0 = 567823 * 12 = 6813876</p>
-          <p className="text-center font-bold">z1 = 33232 * 34 = 1131088</p>
+          <p className="text-center font-bold">z1 = 33232 * 34 = 1129888</p>
           <p className="text-center font-bold">
-            z2 = (567823 + 33232) * (12 + 34) = 601055 * 46 = 27665830
+            z2 = (567823 + 33232) * (12 + 34) = 601055 * 46 = 27648530
           </p>
           <p className="text-center font-bold">
-            z2 - z1 - z0 = 27665830 - 1131088 - 6813876 = 19720868
+            z2 - z1 - z0 = 27648530 - 1129888 - 6813876 = 19704766
           </p>
           <p className="text-center font-bold">
-            x * y = 6813876 * 10^10 + 19720868 * 10^5 + 1131088 = 7006839
+            x * y = 6813876 * 10^10 + 19704766 * 10^5 + 1129888 = 7006939808288
           </p>
         </div>
       </div>
